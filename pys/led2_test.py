@@ -6,7 +6,7 @@ led=Pin(4,Pin.OUT)
 while True:
     led.value(1)
     print('start')
-    time.sleep(0.5)
+    time.sleep(5)
     led.value(0)
     print('stop')
     time.sleep(0.5)
